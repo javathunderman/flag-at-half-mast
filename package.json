@@ -1,0 +1,15 @@
+{
+  "name": "flag-at-half-mast",
+  "description": "Determine whether the US flag is to be flown at half mast. ",
+  "author": "https://github.com/javathunderman",
+  "dependencies": {
+    "feed-read": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonic/node-parse-rss.git"
+  }
+}
