@@ -37,9 +37,9 @@ http.createServer(function(req, res) {
             }
         });
     }
-    if (zerofunction) { //if there are no statements about flying the flag at half mast
+    if (zerofunction == false) { //if there are no statements about flying the flag at half mast
         console.log("No statements about flying the flag at half mast found. ");
-        res.write("<h1>Nope. </h1>");
+        res.write("<center><h1>Nope. </h1></center>");
     }
     setTimeout(function() {
         res.end("</body>\n</html>"); // end http response
