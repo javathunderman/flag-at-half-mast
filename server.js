@@ -39,7 +39,8 @@ http.createServer(function(req, res) {
     }
     if (zerofunction == false) { //if there are no statements about flying the flag at half mast
         console.log("No statements about flying the flag at half mast found. ");
-        res.write("<center><h1>Nope. </h1></center>");
+        res.write("<center><h1>Nope. </h1></center><br /><br /><br /><br /><br /><br /><br /><br /><br />");
+        res.write("<p>Please note that this information may not be entirely accurate. Check with news sites and the official White House website to verify. This site only returns the most recent half-mast proclamation. </p><br><br><br><a href = \x22https://www.whitehouse.gov/briefing-room/presidential-actions/proclamations\x22<a><small>Information provided by the White House Presidential Proclamation log.</small></a> "); //add a small disclaimer here. this algorithm ain't foolproof folks.
     }
     setTimeout(function() {
         res.end("</body>\n</html>"); // end http response
