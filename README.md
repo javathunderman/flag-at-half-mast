@@ -12,3 +12,5 @@ White House Presidential Proclamations archive: https://www.whitehouse.gov/brief
 White House Briefing Room RSS feed: https://www.whitehouse.gov/feed/press
 
 Written in about an hour in July 2016. 
+
+(The service set up for this software is no longer operational)
