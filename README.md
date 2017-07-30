@@ -13,4 +13,4 @@ White House Briefing Room RSS feed: https://www.whitehouse.gov/feed/press
 
 Written in about an hour in July 2016. 
 
-(The service set up for this software is no longer operational)
+Demo here: flag.nomik.xyz
