@@ -54,7 +54,7 @@ function displaystatement(res, a) {
 
 
     // send the statement content to client
-    if (a.title.indexOf("Honoring") != -1 || a.title.indexOf("half-mast") != -1 || a.title.indexOf("flag") != -1) {
+    if (a.title.indexOf("Honoring") != -1 || a.title.indexOf("half-mast") != -1 || a.title.indexOf("flag") != -1 || a.title.indexOf("half-staff")) {
         res.write("<center><h1>Yes </h1> </center><br /><br />");
         res.write('<div class="statement">')
         res.write("<h3>" + a.title + "</h3>");
