@@ -13,4 +13,6 @@ White House Briefing Room RSS feed: https://www.whitehouse.gov/feed/press
 
 Written in about an hour in July 2016. 
 
-Demo here: http://flag.nomik.xyz
+Demo here: http://flag.nomik.xyz (now offline)
+
+UPDATE (December 2017): Looks like the White House got rid of their RSS feed for Presidential Proclamations. This app no longer works. 
